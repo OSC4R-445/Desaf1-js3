@@ -51,7 +51,7 @@ registrarVentaBtn.addEventListener('click', () => {
     tablaProductosTbody.appendChild(nuevaFilaTr);
 
     // Limpiar los campos del producto 
-    document.getElementById('codig').value = '';
+    document.getElementById('codigo').value = '';
     document.getElementById('descripcion').value = '';
     document.getElementById('precio').value = '';
     document.getElementById('cantidad').value = '';
